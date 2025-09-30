@@ -1,12 +1,14 @@
-import React from 'react'
+import { Button } from "@/components/ui/button";
 
 const Page = async() => {
 
   return (
-    <div>
-      hello
+    <div className="p-4 max-w-7xl mx-auto">
+    <Button>
+      Invoke bg job
+    </Button>
     </div>
   )
-}
+};
 
-export default Page
+export default Page;
